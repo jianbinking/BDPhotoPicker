@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD755F84207B367B00A0C9BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755F83207B367B00A0C9BA /* AppDelegate.m */; };
+		FD755F87207B367B00A0C9BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755F86207B367B00A0C9BA /* ViewController.m */; };
+		FD755F8A207B367B00A0C9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD755F88207B367B00A0C9BA /* Main.storyboard */; };
+		FD755F8C207B367B00A0C9BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD755F8B207B367B00A0C9BA /* Assets.xcassets */; };
+		FD755F8F207B367B00A0C9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD755F8D207B367B00A0C9BA /* LaunchScreen.storyboard */; };
+		FD755F92207B367B00A0C9BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755F91207B367B00A0C9BA /* main.m */; };
+		FD755FBD207B369F00A0C9BA /* UIImage+BDPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755F9B207B369F00A0C9BA /* UIImage+BDPhotoPickerController.m */; };
+		FD755FBE207B369F00A0C9BA /* BDPhotoPickerAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755F9D207B369F00A0C9BA /* BDPhotoPickerAssetManager.m */; };
+		FD755FBF207B369F00A0C9BA /* BDPhotoPickerGroupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FA2207B369F00A0C9BA /* BDPhotoPickerGroupManager.m */; };
+		FD755FC0207B369F00A0C9BA /* BDPhotoPickerImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FA3207B369F00A0C9BA /* BDPhotoPickerImageManager.m */; };
+		FD755FC1207B369F00A0C9BA /* BDPhotoAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD755FA5207B369F00A0C9BA /* BDPhotoAssetCell.xib */; };
+		FD755FC2207B369F00A0C9BA /* BDPhotoPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FA7207B369F00A0C9BA /* BDPhotoPageController.m */; };
+		FD755FC3207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FA9207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m */; };
+		FD755FC4207B369F00A0C9BA /* BDPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FAD207B369F00A0C9BA /* BDPhotoPickerController.m */; };
+		FD755FC5207B369F00A0C9BA /* BDPhotoGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD755FAE207B369F00A0C9BA /* BDPhotoGroupCell.xib */; };
+		FD755FC6207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FAF207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.m */; };
+		FD755FC7207B369F00A0C9BA /* BDPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FB0207B369F00A0C9BA /* BDPhotoGroupCell.m */; };
+		FD755FC8207B369F00A0C9BA /* BDPhotoPickerGroupTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FB2207B369F00A0C9BA /* BDPhotoPickerGroupTableController.m */; };
+		FD755FC9207B369F00A0C9BA /* BDPhotoAssetControllerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FB3207B369F00A0C9BA /* BDPhotoAssetControllerTransition.m */; };
+		FD755FCA207B369F00A0C9BA /* BDPhotoAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FB4207B369F00A0C9BA /* BDPhotoAssetCell.m */; };
+		FD755FCB207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD755FB9207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@3x.png */; };
+		FD755FCC207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD755FBA207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@2x.png */; };
+		FD755FCD207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD755FBB207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@2x.png */; };
+		FD755FCE207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD755FBC207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png */; };
+		FD755FD1207B36AE00A0C9BA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD755FD0207B36AE00A0C9BA /* Photos.framework */; };
+		FD755FD5207B4DF900A0C9BA /* UIViewController+BDAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FD4207B4DF900A0C9BA /* UIViewController+BDAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD755F7F207B367B00A0C9BA /* test_BDPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_BDPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD755F82207B367B00A0C9BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD755F83207B367B00A0C9BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD755F85207B367B00A0C9BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD755F86207B367B00A0C9BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD755F89207B367B00A0C9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD755F8B207B367B00A0C9BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD755F8E207B367B00A0C9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD755F90207B367B00A0C9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD755F91207B367B00A0C9BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD755F9A207B369F00A0C9BA /* UIImage+BDPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BDPhotoPickerController.h"; sourceTree = "<group>"; };
+		FD755F9B207B369F00A0C9BA /* UIImage+BDPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BDPhotoPickerController.m"; sourceTree = "<group>"; };
+		FD755F9D207B369F00A0C9BA /* BDPhotoPickerAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerAssetManager.m; sourceTree = "<group>"; };
+		FD755F9E207B369F00A0C9BA /* BDPhotoPickerImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerImageManager.h; sourceTree = "<group>"; };
+		FD755F9F207B369F00A0C9BA /* BDPhotoPickerGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerGroupManager.h; sourceTree = "<group>"; };
+		FD755FA0207B369F00A0C9BA /* BDPhotoPickerAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerAssetManager.h; sourceTree = "<group>"; };
+		FD755FA1207B369F00A0C9BA /* BDPhotoPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerDelegate.h; sourceTree = "<group>"; };
+		FD755FA2207B369F00A0C9BA /* BDPhotoPickerGroupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerGroupManager.m; sourceTree = "<group>"; };
+		FD755FA3207B369F00A0C9BA /* BDPhotoPickerImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerImageManager.m; sourceTree = "<group>"; };
+		FD755FA5207B369F00A0C9BA /* BDPhotoAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPhotoAssetCell.xib; sourceTree = "<group>"; };
+		FD755FA6207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerAssetsCollectionController.h; sourceTree = "<group>"; };
+		FD755FA7207B369F00A0C9BA /* BDPhotoPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPageController.m; sourceTree = "<group>"; };
+		FD755FA8207B369F00A0C9BA /* BDPhotoGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoGroupCell.h; sourceTree = "<group>"; };
+		FD755FA9207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerCollectionFlowLayout.m; sourceTree = "<group>"; };
+		FD755FAA207B369F00A0C9BA /* BDPhotoAssetControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoAssetControllerTransition.h; sourceTree = "<group>"; };
+		FD755FAB207B369F00A0C9BA /* BDPhotoAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoAssetCell.h; sourceTree = "<group>"; };
+		FD755FAC207B369F00A0C9BA /* BDPhotoPickerGroupTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerGroupTableController.h; sourceTree = "<group>"; };
+		FD755FAD207B369F00A0C9BA /* BDPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerController.m; sourceTree = "<group>"; };
+		FD755FAE207B369F00A0C9BA /* BDPhotoGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPhotoGroupCell.xib; sourceTree = "<group>"; };
+		FD755FAF207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerAssetsCollectionController.m; sourceTree = "<group>"; };
+		FD755FB0207B369F00A0C9BA /* BDPhotoGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoGroupCell.m; sourceTree = "<group>"; };
+		FD755FB1207B369F00A0C9BA /* BDPhotoPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPageController.h; sourceTree = "<group>"; };
+		FD755FB2207B369F00A0C9BA /* BDPhotoPickerGroupTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoPickerGroupTableController.m; sourceTree = "<group>"; };
+		FD755FB3207B369F00A0C9BA /* BDPhotoAssetControllerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoAssetControllerTransition.m; sourceTree = "<group>"; };
+		FD755FB4207B369F00A0C9BA /* BDPhotoAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPhotoAssetCell.m; sourceTree = "<group>"; };
+		FD755FB5207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerCollectionFlowLayout.h; sourceTree = "<group>"; };
+		FD755FB6207B369F00A0C9BA /* BDPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerController.h; sourceTree = "<group>"; };
+		FD755FB7207B369F00A0C9BA /* BDPhotoPickerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPhotoPickerCommon.h; sourceTree = "<group>"; };
+		FD755FB9207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BDPhotoPickerCheckMark_s@3x.png"; sourceTree = "<group>"; };
+		FD755FBA207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BDPhotoPickerCheckMark_s@2x.png"; sourceTree = "<group>"; };
+		FD755FBB207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BDPhotoPickerCheckMark_n@2x.png"; sourceTree = "<group>"; };
+		FD755FBC207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BDPhotoPickerCheckMark_n@3x.png"; sourceTree = "<group>"; };
+		FD755FD0207B36AE00A0C9BA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		FD755FD3207B4DF900A0C9BA /* UIViewController+BDAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BDAlert.h"; sourceTree = "<group>"; };
+		FD755FD4207B4DF900A0C9BA /* UIViewController+BDAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BDAlert.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD755F7C207B367B00A0C9BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD755FD1207B36AE00A0C9BA /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD755F76207B367B00A0C9BA = {
+			isa = PBXGroup;
+			children = (
+				FD755F81207B367B00A0C9BA /* test_BDPhotoPicker */,
+				FD755F80207B367B00A0C9BA /* Products */,
+				FD755FCF207B36AD00A0C9BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD755F80207B367B00A0C9BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD755F7F207B367B00A0C9BA /* test_BDPhotoPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD755F81207B367B00A0C9BA /* test_BDPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD755F98207B369F00A0C9BA /* BDPhotoPicker */,
+				FD755F82207B367B00A0C9BA /* AppDelegate.h */,
+				FD755F83207B367B00A0C9BA /* AppDelegate.m */,
+				FD755F85207B367B00A0C9BA /* ViewController.h */,
+				FD755F86207B367B00A0C9BA /* ViewController.m */,
+				FD755F88207B367B00A0C9BA /* Main.storyboard */,
+				FD755F8B207B367B00A0C9BA /* Assets.xcassets */,
+				FD755F8D207B367B00A0C9BA /* LaunchScreen.storyboard */,
+				FD755F90207B367B00A0C9BA /* Info.plist */,
+				FD755F91207B367B00A0C9BA /* main.m */,
+			);
+			path = test_BDPhotoPicker;
+			sourceTree = "<group>";
+		};
+		FD755F98207B369F00A0C9BA /* BDPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD755FD2207B4C5000A0C9BA /* Commons */,
+				FD755F99207B369F00A0C9BA /* Category */,
+				FD755F9C207B369F00A0C9BA /* Model */,
+				FD755FA4207B369F00A0C9BA /* View */,
+				FD755FB8207B369F00A0C9BA /* Resource */,
+			);
+			path = BDPhotoPicker;
+			sourceTree = "<group>";
+		};
+		FD755F99207B369F00A0C9BA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FD755F9A207B369F00A0C9BA /* UIImage+BDPhotoPickerController.h */,
+				FD755F9B207B369F00A0C9BA /* UIImage+BDPhotoPickerController.m */,
+				FD755FD3207B4DF900A0C9BA /* UIViewController+BDAlert.h */,
+				FD755FD4207B4DF900A0C9BA /* UIViewController+BDAlert.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FD755F9C207B369F00A0C9BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD755F9D207B369F00A0C9BA /* BDPhotoPickerAssetManager.m */,
+				FD755F9E207B369F00A0C9BA /* BDPhotoPickerImageManager.h */,
+				FD755F9F207B369F00A0C9BA /* BDPhotoPickerGroupManager.h */,
+				FD755FA0207B369F00A0C9BA /* BDPhotoPickerAssetManager.h */,
+				FD755FA1207B369F00A0C9BA /* BDPhotoPickerDelegate.h */,
+				FD755FA2207B369F00A0C9BA /* BDPhotoPickerGroupManager.m */,
+				FD755FA3207B369F00A0C9BA /* BDPhotoPickerImageManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD755FA4207B369F00A0C9BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD755FA5207B369F00A0C9BA /* BDPhotoAssetCell.xib */,
+				FD755FA6207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.h */,
+				FD755FA7207B369F00A0C9BA /* BDPhotoPageController.m */,
+				FD755FA8207B369F00A0C9BA /* BDPhotoGroupCell.h */,
+				FD755FA9207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m */,
+				FD755FAA207B369F00A0C9BA /* BDPhotoAssetControllerTransition.h */,
+				FD755FAB207B369F00A0C9BA /* BDPhotoAssetCell.h */,
+				FD755FAC207B369F00A0C9BA /* BDPhotoPickerGroupTableController.h */,
+				FD755FAD207B369F00A0C9BA /* BDPhotoPickerController.m */,
+				FD755FAE207B369F00A0C9BA /* BDPhotoGroupCell.xib */,
+				FD755FAF207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.m */,
+				FD755FB0207B369F00A0C9BA /* BDPhotoGroupCell.m */,
+				FD755FB1207B369F00A0C9BA /* BDPhotoPageController.h */,
+				FD755FB2207B369F00A0C9BA /* BDPhotoPickerGroupTableController.m */,
+				FD755FB3207B369F00A0C9BA /* BDPhotoAssetControllerTransition.m */,
+				FD755FB4207B369F00A0C9BA /* BDPhotoAssetCell.m */,
+				FD755FB5207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.h */,
+				FD755FB6207B369F00A0C9BA /* BDPhotoPickerController.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD755FB8207B369F00A0C9BA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FD755FB9207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@3x.png */,
+				FD755FBA207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@2x.png */,
+				FD755FBB207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@2x.png */,
+				FD755FBC207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FD755FCF207B36AD00A0C9BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD755FD0207B36AE00A0C9BA /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD755FD2207B4C5000A0C9BA /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FD755FB7207B369F00A0C9BA /* BDPhotoPickerCommon.h */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD755F7E207B367B00A0C9BA /* test_BDPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD755F95207B367B00A0C9BA /* Build configuration list for PBXNativeTarget "test_BDPhotoPicker" */;
+			buildPhases = (
+				FD755F7B207B367B00A0C9BA /* Sources */,
+				FD755F7C207B367B00A0C9BA /* Frameworks */,
+				FD755F7D207B367B00A0C9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_BDPhotoPicker;
+			productName = test_BDPhotoPicker;
+			productReference = FD755F7F207B367B00A0C9BA /* test_BDPhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD755F77207B367B00A0C9BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = buydeem;
+				TargetAttributes = {
+					FD755F7E207B367B00A0C9BA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD755F7A207B367B00A0C9BA /* Build configuration list for PBXProject "test_BDPhotoPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD755F76207B367B00A0C9BA;
+			productRefGroup = FD755F80207B367B00A0C9BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD755F7E207B367B00A0C9BA /* test_BDPhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD755F7D207B367B00A0C9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD755FCD207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@2x.png in Resources */,
+				FD755FCC207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@2x.png in Resources */,
+				FD755FCB207B369F00A0C9BA /* BDPhotoPickerCheckMark_s@3x.png in Resources */,
+				FD755F8F207B367B00A0C9BA /* LaunchScreen.storyboard in Resources */,
+				FD755FC1207B369F00A0C9BA /* BDPhotoAssetCell.xib in Resources */,
+				FD755F8C207B367B00A0C9BA /* Assets.xcassets in Resources */,
+				FD755FC5207B369F00A0C9BA /* BDPhotoGroupCell.xib in Resources */,
+				FD755F8A207B367B00A0C9BA /* Main.storyboard in Resources */,
+				FD755FCE207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD755F7B207B367B00A0C9BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD755F87207B367B00A0C9BA /* ViewController.m in Sources */,
+				FD755FC8207B369F00A0C9BA /* BDPhotoPickerGroupTableController.m in Sources */,
+				FD755FC9207B369F00A0C9BA /* BDPhotoAssetControllerTransition.m in Sources */,
+				FD755FBE207B369F00A0C9BA /* BDPhotoPickerAssetManager.m in Sources */,
+				FD755F92207B367B00A0C9BA /* main.m in Sources */,
+				FD755FCA207B369F00A0C9BA /* BDPhotoAssetCell.m in Sources */,
+				FD755FC2207B369F00A0C9BA /* BDPhotoPageController.m in Sources */,
+				FD755FC4207B369F00A0C9BA /* BDPhotoPickerController.m in Sources */,
+				FD755FC6207B369F00A0C9BA /* BDPhotoPickerAssetsCollectionController.m in Sources */,
+				FD755FBD207B369F00A0C9BA /* UIImage+BDPhotoPickerController.m in Sources */,
+				FD755FC0207B369F00A0C9BA /* BDPhotoPickerImageManager.m in Sources */,
+				FD755FD5207B4DF900A0C9BA /* UIViewController+BDAlert.m in Sources */,
+				FD755FBF207B369F00A0C9BA /* BDPhotoPickerGroupManager.m in Sources */,
+				FD755F84207B367B00A0C9BA /* AppDelegate.m in Sources */,
+				FD755FC7207B369F00A0C9BA /* BDPhotoGroupCell.m in Sources */,
+				FD755FC3207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD755F88207B367B00A0C9BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD755F89207B367B00A0C9BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD755F8D207B367B00A0C9BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD755F8E207B367B00A0C9BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD755F93207B367B00A0C9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD755F94207B367B00A0C9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD755F96207B367B00A0C9BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTS5V84ARX;
+				INFOPLIST_FILE = test_BDPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buydeem.test-BDPhotoPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD755F97207B367B00A0C9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DTS5V84ARX;
+				INFOPLIST_FILE = test_BDPhotoPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buydeem.test-BDPhotoPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD755F7A207B367B00A0C9BA /* Build configuration list for PBXProject "test_BDPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD755F93207B367B00A0C9BA /* Debug */,
+				FD755F94207B367B00A0C9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD755F95207B367B00A0C9BA /* Build configuration list for PBXNativeTarget "test_BDPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD755F96207B367B00A0C9BA /* Debug */,
+				FD755F97207B367B00A0C9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD755F77207B367B00A0C9BA /* Project object */;
+}
