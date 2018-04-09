@@ -33,7 +33,6 @@
 		FD755FCE207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD755FBC207B369F00A0C9BA /* BDPhotoPickerCheckMark_n@3x.png */; };
 		FD755FD1207B36AE00A0C9BA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD755FD0207B36AE00A0C9BA /* Photos.framework */; };
 		FD755FD5207B4DF900A0C9BA /* UIViewController+BDAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FD4207B4DF900A0C9BA /* UIViewController+BDAlert.m */; };
-		FD755FD8207B726E00A0C9BA /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FD755FD7207B726E00A0C9BA /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,8 +81,6 @@
 		FD755FD0207B36AE00A0C9BA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		FD755FD3207B4DF900A0C9BA /* UIViewController+BDAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BDAlert.h"; sourceTree = "<group>"; };
 		FD755FD4207B4DF900A0C9BA /* UIViewController+BDAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BDAlert.m"; sourceTree = "<group>"; };
-		FD755FD6207B726E00A0C9BA /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
-		FD755FD7207B726E00A0C9BA /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +120,6 @@
 				FD755F83207B367B00A0C9BA /* AppDelegate.m */,
 				FD755F85207B367B00A0C9BA /* ViewController.h */,
 				FD755F86207B367B00A0C9BA /* ViewController.m */,
-				FD755FD6207B726E00A0C9BA /* TestClass.h */,
-				FD755FD7207B726E00A0C9BA /* TestClass.m */,
 				FD755F88207B367B00A0C9BA /* Main.storyboard */,
 				FD755F8B207B367B00A0C9BA /* Assets.xcassets */,
 				FD755F8D207B367B00A0C9BA /* LaunchScreen.storyboard */,
@@ -314,7 +309,6 @@
 				FD755FD5207B4DF900A0C9BA /* UIViewController+BDAlert.m in Sources */,
 				FD755FBF207B369F00A0C9BA /* BDPhotoPickerGroupManager.m in Sources */,
 				FD755F84207B367B00A0C9BA /* AppDelegate.m in Sources */,
-				FD755FD8207B726E00A0C9BA /* TestClass.m in Sources */,
 				FD755FC7207B369F00A0C9BA /* BDPhotoGroupCell.m in Sources */,
 				FD755FC3207B369F00A0C9BA /* BDPhotoPickerCollectionFlowLayout.m in Sources */,
 			);
